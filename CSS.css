@@ -1,0 +1,147 @@
+#i{
+    text-decoration: none;
+}
+.p{
+    font-size:2.8vw;    
+    border-radius:1% 35%;
+    width: 25%;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fn{
+    font-size: 1.7vw;
+    font-weight:1vw;
+}
+#k{
+    background-color: #FFC0C7;
+}
+#v{
+    background-color: #96D4D4;
+}
+#e{
+    background-color: #d4d3d3;
+}
+#t{
+    background-color: #FFF4A3;
+}
+
+.t{
+    padding:12% 0%;
+    font-size:1.5vw;
+&:hover{
+    background-color: rgb(230, 228, 228);
+    border-radius: 50%;
+}
+}
+.o{
+    text-align: center;
+    width: 40%;
+    height:25%;
+    background-color: white;
+    color: black;
+    margin: 0% 30% 30%;
+    border-radius:50%;
+}
+.g{
+    color: black;
+    width: 27%;
+    margin:3%;
+    float: left;
+    border-radius:7%;  
+}
+#HT{
+    text-align: center;
+    margin:15% 0%;
+    font-size:2vw;
+}
+.s{
+    font-size:2vw;
+    width:100%;
+    padding:3% .5%;
+    float:right;
+    text-align:right;
+}
+.m{
+    margin:1% 7.6%;
+    float: left;
+    text-decoration: none;
+    font-size: 1.6vw;
+}
+.t,.b,.d{
+    font-size:1.6vw;
+}
+.h{
+    height:1.2vw;
+}
+.disl {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .showl {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+.disr {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .showr {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+.disc {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .showc {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+.lft{
+    animation: lft 0.5s forwards;
+}
+@keyframes lft {
+    from {
+        transform: translate(-100%,0px);
+        opacity: 0;
+    }
+    to {
+            transform: translate(0);
+        opacity: 1;
+    }
+}
+.cent{
+    animation: cent 0.5s forwards;
+}
+@keyframes cent {
+    from {
+        transform: translate(0,50px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+.rit{
+    animation: rit 0.5s forwards;
+}
+@keyframes rit {
+    from {
+        transform: translate(100%,0px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
